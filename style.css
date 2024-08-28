@@ -1,0 +1,112 @@
+body {
+    background-image: url('http://ekladata.com/rWwkH7kjeaEqPalsuw6h8sDv5_w.gif');
+	background-size: cover;
+	margin: 40px;
+}
+#newss {
+	float:right ;
+}
+.aac{
+	color: #00FF00;
+
+}.aab{
+	color: #00FF00;
+}.mpssh{
+	color: #00FF00;
+}#prenomh{
+	padding:10px;
+	font-size: 15px ;
+	
+}#nomh{
+	padding: 10px;
+	font-size: 15px ;
+}#mdp{
+	padding: 10px;
+	font-size: 15px ;
+}.bouton1 {
+
+            padding: 15px 25px;
+            border: 2px solid #007BFF;
+            border-radius: 35px; /* Arrondit les coins */
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+			
+}
+.bouton2{
+
+	            padding: 15px 25px;
+            border: 2px solid #007BFF;
+            border-radius: 35px; /* Arrondit les coins */
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+}
+
+#im1 {
+	float:right ;
+	margin: -10px;
+}
+#date {
+	float:right ;
+	color: #800080;
+	font-size: 25px ;
+	margin: 10px;
+	margin-right: 40px;
+
+   animation-duration: .8s;
+   animation-name: clignoter;
+   animation-iteration-count: infinite;
+   transition: none;
+  color: 
+}
+@keyframes clignoter {
+  0%   { color:#000000; }
+  40%   {color:#F1A200; }
+  100% { opacity:#000000; }
+}
+
+h1 {
+	color:blue;
+	margin:80px;
+   animation-duration: 5s;
+   animation-name: clignoter;
+   animation-iteration-count: infinite;
+   transition: none;
+  color: 
+}
+@keyframes clignoter {
+  40%   { color:#000000; }
+  20%   {color:red; }
+  40% { opacity:#000000; }
+}
+
+#RTS {
+	            padding: 15px 25px;
+            border: 2px solid #007BFF;
+            border-radius: 35px; /* Arrondit les coins */
+            background-color: #007BFF;
+            color: #00FF00;
+            cursor: pointer;
+            font-size: 20px;
+}
+#msg {
+	float: right  ;
+    margin: -10px;
+    font-size: 70px;
+    padding: -50px;
+	   animation-duration: .8s;
+   animation-name: clignoter;
+   animation-iteration-count: infinite;
+   transition: none;
+  color: 
+}
+@keyframes clignoter {
+  40%   { color:#000000; }
+  20%   {color:red; }
+  40% { opacity:#000000; }
+}
+
+

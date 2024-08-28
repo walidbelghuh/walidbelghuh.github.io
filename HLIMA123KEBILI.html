@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+      <head>
+                      <title> HLIMA123KEBILI</title>
+			
+<link href="style.css" rel="stylesheet"	  
+	  </head>
+
+      <body onload="verification()">
+	  
+<img id="im1" src="tirr.gif" height="100px" width="130px">
+<p id="date"> </p>
+
+	          <p><h1> BIEN VENU HALIMA &nbsp :</h1> </p>
+	<span id="msg"></span> 		  
+		 <h3> 
+<p class="aab">&nbsp ENTRER TON PRENOM &nbsp: &nbsp <input type="var" size="15" id="prenomh"></p>
+<p>&nbsp;</p>
+		 <div id="newss"> </div>
+<p class="aac">&nbsp ENTRER TON NOM &nbsp  :&nbsp &nbsp &nbsp &nbsp &nbsp<input type="var" size="15" id="nomh" ></p>
+<p>&nbsp</p>
+<p class="mpssh">&nbsp ENTRER MOT DE PASSE: <input type="texte" size="15" id="mdp" oninput="masquerTexte()"></p> 
+    
+    
+</h3>
+
+		 
+
+
+		
+		 <button class="bouton1"
+      onclick= "refrech()"> actualiser </button>
+         <button class="bouton2"
+      onclick= "verification()"> cliquer ici pour verifier </button>
+	  
+<script> 
+	function masquerTexte() {
+    var champTexte = document.getElementById("mdp");
+    if (champTexte.value !== " ") {
+        champTexte.type = "password";
+    }
+		}	
+
+
+</script>
+
+
+<script>
+
+</script>
+	
+		
+    <script>
+        // Fonction pour obtenir la date et l'heure actuelle et les formater
+        function afficherDateHeure() {
+            const maintenant = new Date();
+            const options = { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' };
+            const dateFormatee = maintenant.toLocaleDateString('fr-FR', options);
+            document.getElementById('date').textContent = dateFormatee;
+        }
+
+        // Appeler la fonction immédiatement pour afficher la date au chargement de la page
+        afficherDateHeure();
+
+        // Mettre à jour la date chaque seconde (1000 millisecondes)
+        setInterval(afficherDateHeure, 1000);
+    </script>
+
+	 </body>
+			
+				      <script> 
+        function verification() {
+		
+	
+		    // Obtenir l'élément par son ID
+    var element = document.getElementById("newss");
+
+    // Générer du contenu aléatoire ou dynamique
+    var newContent = "";
+
+    // Mettre à jour le contenu de l'élément
+    element.innerHTML = newContent;
+	
+
+            var str = document.getElementById("mdp").value;
+			 var prenomhh = document.getElementById("prenomh").value;	
+			  var nomhh = document.getElementById("nomh").value;	
+			
+            if ((str == "0127659461" )&&(prenomhh.toLowerCase() == "halima")&&(nomhh.toLowerCase() =="fraj")){
+                msg = 'أهلا حلومة الغالية';
+			document.getElementById("msg").innerHTML= msg;
+			 var ipp = document.createElement("img");
+              ipp.src ='hlima.jpg';
+              newss.appendChild(ipp);
+            }else if ((str == "" )||(prenomhh.toLowerCase() == "")||(nomhh.toLowerCase() == "")){
+                msg = " ";
+			document.getElementById("msg").innerHTML= msg;
+			 var ipp = document.createElement("img");
+              ipp.src ='';
+              newss.appendChild(ipp);
+			
+			}else {
+                msg = " INCONNUE !! "; 
+            document.getElementById("msg").innerHTML= msg; 
+			}
+        }
+		
+
+		
+	    function refrech(){
+		window.location.reload();
+		}	
+		
+	        </script>
+			
+
+
+
+
+</html>
